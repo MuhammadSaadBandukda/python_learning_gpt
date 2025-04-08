@@ -1,5 +1,7 @@
 def bmi_cal(*,height,weight):
     BMI = weight/height**2
+    
+    # Determine category based on BMI value
     if BMI < 18.5:
         return f"You are underweight,Your BMI is {BMI}"
     elif BMI < 25:
